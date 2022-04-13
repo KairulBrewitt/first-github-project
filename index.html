@@ -73,17 +73,17 @@
     <form action="process.php" method="POST">
             <div>
                 <label>First Name</label>
-                <input type="text" name="firstName">
+                <input type="text" name="firstName" value="enter first name">
             </div>
         <br>
             <div>
                 <label>Last Name</label>
-                <input type="text" name="lastName">
+                <input type="text" name="lastName" value="enter last name">
             </div> 
         <br>
             <div>
                 <label>Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" value="enter email">
             </div> 
         <br>
             <div>
@@ -106,12 +106,23 @@
             </div> 
         <br>
             <div>
-                <label>Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
             </div> 
+            <br>
+            <input type="submit" name="Submit" value="Submit">
     </form>
-    
+    <br>
+    <!-- Button -->
+    <button>Click Me</button>
 
+    <br>
+    <hr>
+    <br>
+    <!-- Image -->
+        <a href="images/sampleimage.jpeg">
+        <img src="Images\sampleimage.jpeg" alt="My Sample Image" width="200px">
+        </a>
     <div style="margin-top:500px"></div>
 </body>
 </html>
